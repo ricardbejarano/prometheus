@@ -16,7 +16,8 @@ FROM scratch
 COPY --from=build /tmp/prometheus/prometheus /prometheus
 COPY --from=build /tmp/prometheus/prometheus.yml /prometheus.yml
 
+WORKDIR /
+VOLUME ["/data"]
+EXPOSE 9090/tcp
 STOPSIGNAL SIGTERM
-
 ENTRYPOINT ["/prometheus"]
-CMD ["--config.file=/prometheus.yml", "--storage.tsdb.path=/data"]
