@@ -26,17 +26,19 @@ Available on [Quay](https://quay.io) as [`quay.io/ricardbejarano/prometheus`](ht
 * Reduced attack surface (no `bash`, no UNIX tools, no package manager...)
 
 
+## Configuration
+
+### Volumes
+
+- Bind your **data** at `/data`.
+- Bind your **configuration file** at `/prometheus.yml`.
+
+
 ## Building
 
 ```bash
 docker build -t prometheus .
 ```
-
-
-## Volumes
-
-- Bind your **data** at `/data`.
-- Bind your **configuration file** at `/prometheus.yml`.
 
 
 ## Filesystem
