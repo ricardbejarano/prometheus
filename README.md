@@ -22,7 +22,7 @@ Available on [Quay](https://quay.io) as [`quay.io/ricardbejarano/prometheus`](ht
 
 * Can't get any smaller (`~73.2MB`), only two files: the binary and the config
 * Binary pulled from the official website
-* Built `FROM scratch`, see the [Filesystem](#Filesystem) section below for an exhaustive list of the image's contents
+* Built `FROM scratch`, see the [Filesystem](#filesystem) section below for an exhaustive list of the image's contents
 * Reduced attack surface (no `bash`, no UNIX tools, no package manager...)
 
 
