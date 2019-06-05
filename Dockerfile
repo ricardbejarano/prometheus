@@ -13,8 +13,9 @@ RUN cd /tmp && \
 
 FROM scratch
 
-COPY --from=build /tmp/prometheus/prometheus /prometheus
-COPY --from=build /tmp/prometheus/prometheus.yml /prometheus.yml
+COPY --from=build /tmp/prometheus/prometheus.yml \
+                  /tmp/prometheus/prometheus \
+                  /
 
 WORKDIR /
 VOLUME ["/data"]
