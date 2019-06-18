@@ -16,7 +16,6 @@ COPY --from=build /tmp/prometheus/prometheus.yml \
                   /tmp/prometheus/prometheus \
                   /
 
-WORKDIR /
 VOLUME ["/data"]
 EXPOSE 9090/tcp
 ENTRYPOINT ["/prometheus"]
