@@ -19,5 +19,4 @@ COPY --from=build /tmp/prometheus/prometheus.yml \
 WORKDIR /
 VOLUME ["/data"]
 EXPOSE 9090/tcp
-STOPSIGNAL SIGTERM
 ENTRYPOINT ["/prometheus"]
