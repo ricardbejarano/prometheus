@@ -20,10 +20,10 @@ Available on [Quay](https://quay.io) as [`quay.io/ricardbejarano/prometheus`](ht
 
 ## Features
 
-* Can't get any smaller (`~74.6MB`), only two files: the binary and the config
-* Binary pulled from the official website
-* Built `FROM scratch`, see the [Filesystem](#filesystem) section below for an exhaustive list of the image's contents
-* Reduced attack surface (no `bash`, no UNIX tools, no package manager...)
+* Super tiny (`~74.6MB`)
+* Binary pulled from official website
+* Built `FROM scratch`, see [Filesystem](#filesystem) for an exhaustive list of the image's contents
+* Reduced attack surface (no shell, no UNIX tools, no package manager...)
 
 
 ## Configuration
@@ -31,7 +31,7 @@ Available on [Quay](https://quay.io) as [`quay.io/ricardbejarano/prometheus`](ht
 ### Volumes
 
 - Bind your **data** at `/data`.
-- Bind your **configuration file** at `/prometheus.yml`.
+- Bind your **configuration** at `/prometheus.yml`.
 
 
 ## Building
