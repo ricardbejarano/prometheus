@@ -43,7 +43,7 @@ docker build -t prometheus .
 
 ## Filesystem
 
-The images' contents are:
+The image's contents are:
 
 ```
 /
