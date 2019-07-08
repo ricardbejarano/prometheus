@@ -18,7 +18,7 @@ COPY --from=build /tmp/prometheus/prometheus.yml \
 
 COPY --chown=100:100 rootfs /
 
-USER prometheus:prometheus
+USER 100:100
 VOLUME ["/data"]
 EXPOSE 9090/tcp
 ENTRYPOINT ["/prometheus"]
