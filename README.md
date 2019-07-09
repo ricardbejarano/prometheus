@@ -9,13 +9,13 @@
 
 Available on [Docker Hub](https://hub.docker.com) as [`ricardbejarano/prometheus`](https://hub.docker.com/r/ricardbejarano/prometheus):
 
-- [`2.10.0`, `master`, `latest` *(Dockerfile)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile)
+- [`2.11.0`, `master`, `latest` *(Dockerfile)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile)
 
 ### Quay
 
 Available on [Quay](https://quay.io) as [`quay.io/ricardbejarano/prometheus`](https://quay.io/repository/ricardbejarano/prometheus):
 
-- [`2.10.0`, `master`, `latest` *(Dockerfile)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile)
+- [`2.11.0`, `master`, `latest` *(Dockerfile)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile)
 
 
 ## Features
