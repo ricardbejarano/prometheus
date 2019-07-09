@@ -20,7 +20,7 @@ Available on [Quay](https://quay.io) as [`quay.io/ricardbejarano/prometheus`](ht
 
 ## Features
 
-* Super tiny (`~74.6MB`)
+* Super tiny (`~76.3MB`)
 * Binary pulled from official website
 * Built `FROM scratch`, see [Filesystem](#filesystem) for an exhaustive list of the image's contents
 * Reduced attack surface (no shell, no UNIX tools, no package manager...)
