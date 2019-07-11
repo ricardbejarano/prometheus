@@ -31,7 +31,7 @@ Available on [Quay](https://quay.io) as [`quay.io/ricardbejarano/prometheus`](ht
 ### Volumes
 
 - Bind your **data** at `/data`.
-- Bind your **configuration** at `/prometheus.yml`.
+- Bind your **configuration** at `/etc/prometheus/prometheus.yml`.
 
 
 ## Building

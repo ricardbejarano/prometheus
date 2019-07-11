@@ -12,9 +12,8 @@ RUN [ "$PROMETHEUS_CHECKSUM" = "$(sha256sum /tmp/prometheus.tar.gz | awk '{print
 
 FROM scratch
 
-COPY --from=build /tmp/prometheus/prometheus.yml \
-                  /tmp/prometheus/prometheus \
-                  /
+COPY --from=build /tmp/prometheus/prometheus.yml /etc/prometheus/
+COPY --from=build /tmp/prometheus/prometheus /
 
 COPY --chown=100:100 rootfs /
 
@@ -22,3 +21,4 @@ USER 100:100
 VOLUME ["/data"]
 EXPOSE 9090/tcp
 ENTRYPOINT ["/prometheus"]
+CMD ["--config.file=/etc/prometheus/prometheus.yml"]
