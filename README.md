@@ -1,6 +1,6 @@
 <p align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/198/fire_1f525.png" width="120px"></p>
 <h1 align="center">prometheus (container image)</h1>
-<p align="center">Built-from-source container image of the <a href="https://prometheus.io/">Prometheus monitoring system and time-series database</a></p>
+<p align="center">Built-from-source container image of the <a href="https://prometheus.io">Prometheus monitoring system and time-series database</a></p>
 
 
 ## Tags
