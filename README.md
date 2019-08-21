@@ -9,15 +9,15 @@
 
 Available on [Docker Hub](https://hub.docker.com) as [`ricardbejarano/prometheus`](https://hub.docker.com/r/ricardbejarano/prometheus):
 
-- [`2.11.2-glibc`, `2.11.2`, `glibc`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc)
-- [`2.11.2-musl`, `musl` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl)
+- [`2.12.0-glibc`, `2.12.0`, `glibc`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc)
+- [`2.12.0-musl`, `musl` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl)
 
 ### Quay
 
 Available on [Quay](https://quay.io) as:
 
-- [`quay.io/ricardbejarano/prometheus-glibc`](https://quay.io/repository/ricardbejarano/prometheus-glibc), tags: [`2.11.2`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc)
-- [`quay.io/ricardbejarano/prometheus-musl`](https://quay.io/repository/ricardbejarano/prometheus-musl), tags: [`2.11.2`, `master`, `latest` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl)
+- [`quay.io/ricardbejarano/prometheus-glibc`](https://quay.io/repository/ricardbejarano/prometheus-glibc), tags: [`2.12.0`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc)
+- [`quay.io/ricardbejarano/prometheus-musl`](https://quay.io/repository/ricardbejarano/prometheus-musl), tags: [`2.12.0`, `master`, `latest` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl)
 
 
 ## Features
