@@ -9,24 +9,24 @@
 
 Available on [Docker Hub](https://hub.docker.com) as [`ricardbejarano/prometheus`](https://hub.docker.com/r/ricardbejarano/prometheus):
 
-- [`2.14.0-glibc`, `2.14.0`, `glibc`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc)
-- [`2.14.0-glibc-arm`, `2.14.0-arm`, `glibc-arm`, `master-arm`, `latest-arm` *(Dockerfile.glibc-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc-arm)
-- [`2.14.0-musl`, `musl` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl)
-- [`2.14.0-musl-arm`, `musl-arm` *(Dockerfile.musl-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl-arm)
+- [`2.14.0-glibc`, `2.14.0`, `glibc`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc) (about `80.3MB`)
+- [`2.14.0-glibc-arm`, `2.14.0-arm`, `glibc-arm`, `master-arm`, `latest-arm` *(Dockerfile.glibc-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc-arm) (about `69.1MB`)
+- [`2.14.0-musl`, `musl` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl) (about `80.3MB`)
+- [`2.14.0-musl-arm`, `musl-arm` *(Dockerfile.musl-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl-arm) (about `69.1MB`)
 
 ### Quay
 
 Available on [Quay](https://quay.io) as:
 
-- [`quay.io/ricardbejarano/prometheus-glibc`](https://quay.io/repository/ricardbejarano/prometheus-glibc), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc)
-- [`quay.io/ricardbejarano/prometheus-glibc-arm`](https://quay.io/repository/ricardbejarano/prometheus-glibc-arm), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.glibc-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc-arm)
-- [`quay.io/ricardbejarano/prometheus-musl`](https://quay.io/repository/ricardbejarano/prometheus-musl), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl)
-- [`quay.io/ricardbejarano/prometheus-musl-arm`](https://quay.io/repository/ricardbejarano/prometheus-musl-arm), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.musl-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl-arm)
+- [`quay.io/ricardbejarano/prometheus-glibc`](https://quay.io/repository/ricardbejarano/prometheus-glibc), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc) (about `80.3MB`)
+- [`quay.io/ricardbejarano/prometheus-glibc-arm`](https://quay.io/repository/ricardbejarano/prometheus-glibc-arm), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.glibc-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc-arm) (about `69.1MB`)
+- [`quay.io/ricardbejarano/prometheus-musl`](https://quay.io/repository/ricardbejarano/prometheus-musl), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl) (about `80.3MB`)
+- [`quay.io/ricardbejarano/prometheus-musl-arm`](https://quay.io/repository/ricardbejarano/prometheus-musl-arm), tags: [`2.14.0`, `master`, `latest` *(Dockerfile.musl-arm)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl-arm) (about `69.1MB`)
 
 
 ## Features
 
-* Super tiny (about `76.6MB`)
+* Super tiny (see [Tags](#tags))
 * Compiled from source during build time
 * Built `FROM scratch`, with zero bloat (see [Filesystem](#filesystem))
 * Reduced attack surface (no shell, no UNIX tools, no package manager...)
