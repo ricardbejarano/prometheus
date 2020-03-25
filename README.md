@@ -16,7 +16,7 @@ Available on [Docker Hub](https://hub.docker.com) as [`ricardbejarano/prometheus
 
 Available on [Quay](https://quay.io) as:
 
-- [`quay.io/ricardbejarano/prometheus-glibc`](https://quay.io/repository/ricardbejarano/prometheus-glibc), tags: [`2.16.0`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc) (about `80.3MB`)
+- [`quay.io/ricardbejarano/prometheus`](https://quay.io/repository/ricardbejarano/prometheus), [`quay.io/ricardbejarano/prometheus-glibc`](https://quay.io/repository/ricardbejarano/prometheus-glibc), tags: [`2.16.0`, `master`, `latest` *(Dockerfile.glibc)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.glibc) (about `80.3MB`)
 - [`quay.io/ricardbejarano/prometheus-musl`](https://quay.io/repository/ricardbejarano/prometheus-musl), tags: [`2.16.0`, `master`, `latest` *(Dockerfile.musl)*](https://github.com/ricardbejarano/prometheus/blob/master/Dockerfile.musl) (about `80.3MB`)
 
 
