@@ -9,6 +9,8 @@ RUN [ "$CHECKSUM" = "$(sha256sum /tmp/prometheus.tar.gz | awk '{print $1}')" ] &
     mkdir -p /go/src/github.com/prometheus && \
     tar -C /go/src/github.com/prometheus -xf /tmp/prometheus.tar.gz && \
     apk add ca-certificates curl make yarn && \
+    which yarn && \
+    export PATH="$PATH:/usr/bin" && \
     cd /go/src/github.com/prometheus/prometheus-$VERSION && \
     make build && \
     mkdir -p /rootfs/bin /rootfs/etc/ssl/certs /rootfs/data && \
