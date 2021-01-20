@@ -8,6 +8,7 @@ ADD https://github.com/prometheus/prometheus/archive/v$VERSION.tar.gz /tmp/prome
 RUN [ "$CHECKSUM" = "$(sha256sum /tmp/prometheus.tar.gz | awk '{print $1}')" ] && \
     apt update && \
     apt install -y ca-certificates curl make yarn && \
+    yarn --version && \
     mkdir -p /go/src/github.com/prometheus && \
     gunzip /tmp/prometheus.tar.gz && \
     tar -C /go/src/github.com/prometheus -xf /tmp/prometheus.tar && \
