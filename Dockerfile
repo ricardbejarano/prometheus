@@ -17,6 +17,7 @@ RUN mkdir -p /rootfs && \
       cp /go/src/github.com/prometheus/prometheus/documentation/examples/prometheus.yml /rootfs/ && \
     mkdir -p /rootfs/bin && \
       cp /go/src/github.com/prometheus/prometheus/prometheus /rootfs/bin/ && \
+    mkdir -p /rootfs/data && \
     mkdir -p /rootfs/etc && \
       echo "nogroup:*:10000:nobody" > /rootfs/etc/group && \
       echo "nobody:*:10000:10000:::" > /rootfs/etc/passwd && \
