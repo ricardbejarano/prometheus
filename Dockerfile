@@ -1,7 +1,7 @@
 FROM golang:1-alpine AS build
 
-ARG VERSION="2.29.1"
-ARG CHECKSUM="727c088dd7275c769403d5c284cd2152dbc98d0e4ebfd55596f5f8e58c76473a"
+ARG VERSION="2.29.2"
+ARG CHECKSUM="8ac87a7d0982750618cb416d07c85aeb17df200e73da28d5e98d4b89476c26b9"
 
 ADD https://github.com/prometheus/prometheus/archive/v$VERSION.tar.gz /tmp/prometheus.tar.gz
 
