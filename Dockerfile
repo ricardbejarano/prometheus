@@ -6,7 +6,7 @@ ARG CHECKSUM="b6742ef53fc6971d436c3635515d81accb669b9bd8090217cef1ca806db3a478"
 ADD https://github.com/prometheus/prometheus/archive/v$VERSION.tar.gz /tmp/prometheus.tar.gz
 
 RUN [ "$(sha256sum /tmp/prometheus.tar.gz | awk '{print $1}')" = "$CHECKSUM" ] && \
-    apk add bash ca-certificates curl make yarn && \
+    apk add bash ca-certificates curl make npm yarn && \
     tar -C /tmp -xf /tmp/prometheus.tar.gz && \
     mkdir -p /go/src/github.com/prometheus && \
     mv /tmp/prometheus-$VERSION /go/src/github.com/prometheus/prometheus && \
