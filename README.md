@@ -9,13 +9,13 @@
 
 Available on Docker Hub as [`docker.io/ricardbejarano/prometheus`](https://hub.docker.com/r/ricardbejarano/prometheus):
 
-- [`2.33.4`, `latest` *(Dockerfile)*](Dockerfile)
+- [`2.34.0`, `latest` *(Dockerfile)*](Dockerfile)
 
 ### RedHat Quay
 
 Available on RedHat Quay as [`quay.io/ricardbejarano/prometheus`](https://quay.io/repository/ricardbejarano/prometheus):
 
-- [`2.33.4`, `latest` *(Dockerfile)*](Dockerfile)
+- [`2.34.0`, `latest` *(Dockerfile)*](Dockerfile)
 
 
 ## Features
